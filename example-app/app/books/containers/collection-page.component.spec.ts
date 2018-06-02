@@ -4,13 +4,13 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterTestingModule } from '@angular/router/testing';
 import { MatCardModule, MatInputModule } from '@angular/material';
-import { BookPreviewListComponent } from '../components/book-preview-list.component';
-import { BookPreviewComponent } from '../components/book-preview.component';
-import * as CollectionActions from '../actions/collection.actions';
-import * as fromBooks from '../reducers';
+import { BookPreviewListComponent } from '@books/components/book-preview-list.component';
+import { BookPreviewComponent } from '@books/components/book-preview.component';
+import * as CollectionActions from '@books/actions/collection.actions';
+import * as fromBooks from '@books/reducers';
 import { EllipsisPipe } from '../../shared/pipes/ellipsis.pipe';
 import { AddCommasPipe } from '../../shared/pipes/add-commas.pipe';
-import { BookAuthorsComponent } from '../components/book-authors.component';
+import { BookAuthorsComponent } from '@books/components/book-authors.component';
 
 describe('Collection Page', () => {
   let fixture: ComponentFixture<CollectionPageComponent>;

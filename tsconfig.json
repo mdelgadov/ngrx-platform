@@ -32,7 +32,8 @@
       "@ngrx/schematics": ["./modules/schematics"],
       "@ngrx/schematics/schematics-core": [
         "./modules/schematics/schematics-core"
-      ]
+      ],
+      "@books/*": ["./example-app/app/books/*"]
     }
   },
   "exclude": [
